@@ -1,0 +1,90 @@
+.banner {
+    background-image: url(../assets/images/banner.png) linear-gradient(rgba(0, 0, 0, .6), rgba(49, 158, 221, .2), rgba(0, 0, 0, .6));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+    color: white;
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    left: 464px;
+    gap: 16px;  
+    margin: auto;
+    text-align: center;
+}
+
+  
+.banner h1 {
+    width: 510px;
+    height: 47px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+  
+.banner p {
+    width: 510px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    align-items: center;
+    margin: 16px 0 24px;
+}
+  
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 268px;
+    width: 268px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+  
+.banner .logo img {
+    margin: auto;
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
+    object-fit: contain;
+}
+  
+.banner .banner-content button {
+    /* text-decoration: none; */
+    width: 326px;
+    height: 57px;
+    top: 437px;
+    left: 557px;
+    margin-top: 20px;
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background-color: #1572B7 ;
+    color: #adff2f;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.banner .banner-content button:hover {
+    background-color: #adff2f;
+    color: #1472B7;
+    border-radius: 30px; 
+}
