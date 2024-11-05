@@ -1,0 +1,78 @@
+#course-content {
+    width: 792px;
+    height: 325px;
+    top: 723px;
+    left: 324px;
+    gap: 24px; 
+    margin: 0;
+}
+
+#course-content h2 {
+    width: 477px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 4px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin: 0 379px 0 405px;
+}
+
+#course-content p {
+    width: 792px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+    margin: 15px 230px;
+}
+
+.modules-list {
+    width: 1250px;
+    margin: 24px 0;
+}
+
+.module {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: white;
+    text-align: center;
+    width: 535px;
+    height: 51px;
+
+    margin: 0 auto 24px;
+    background-color: #252525;
+
+    border: 1px solid #33A8DB;
+    border-radius: 100px ;
+    padding: 16px 20px 16px 20px;
+    gap: 10px;
+    opacity: 0px;
+
+    box-shadow: inset -2px 6px 4px 0px #00000066 rgba(0, 0, 0, 0.7) ;
+
+    filter: drop-shadow(0 0 0 #fffdef);
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96) ;
+    z-index: -5;
+
+}
+
+span {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: left;
+    color: #33A8DB;    
+}
+
+/* fazer hover do module  e span*/
+.module:hover {
+
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+
+}

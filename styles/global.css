@@ -2,16 +2,28 @@
 
 body {
     background-color: black;
+
+    display: grid;
+    width: 1262px;
+    height: 2491px;
+    grid-template-areas: 
+    "header header  header"
+    "main main main"
+    "footer  footer  footer";
 }
 
-h2 {
-    font-size: 2rem;
-    color: #33A8DB;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
+body > header {
+    grid-area: header;
 }
+
+body > main {
+    grid-area: main;
+}
+
+body > footer {
+    grid-area: footer;
+}
+
 
 p {
     color: white;
@@ -20,3 +32,4 @@ p {
 section {
     margin: 100px auto;
 }
+
