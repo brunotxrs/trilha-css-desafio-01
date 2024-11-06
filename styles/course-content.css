@@ -1,6 +1,7 @@
 #course-content {
     width: 792px;
     height: 325px;
+    
     top: 723px;
     left: 324px;
     gap: 24px; 
@@ -52,12 +53,11 @@
     gap: 10px;
     opacity: 0px;
 
-    box-shadow: inset -2px 6px 4px 0px #00000066 rgba(0, 0, 0, 0.7) ;
+    box-shadow: inset -2px 6px 4px 0px #00000066 rgba(0, 0, 0, 0.7);
 
     filter: drop-shadow(0 0 0 #fffdef);
     transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96) ;
     z-index: -5;
-
 }
 
 span {
@@ -69,10 +69,8 @@ span {
     color: #33A8DB;    
 }
 
-/* fazer hover do module  e span*/
+
 .module:hover {
-
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px #33A8DB);
     z-index: 2;
-
 }

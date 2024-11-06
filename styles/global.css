@@ -4,8 +4,8 @@ body {
     background-color: black;
 
     display: grid;
-    width: 1262px;
-    height: 2491px;
+    width: 78.875rem;
+    height: 155.687rem;
     grid-template-areas: 
     "header header  header"
     "main main main"

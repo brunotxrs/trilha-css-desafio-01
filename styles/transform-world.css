@@ -1,0 +1,26 @@
+#transform-world {
+    background-image: url(../assets/images/woman-code.png);
+    height: 35rem;
+    background-size: cover;
+    background-attachment: fixed;
+    border: .0625rem solid #33A8DB80;
+    border-bottom: .0625rem solid #33A8DB80;
+    padding: 12.5rem;    
+}
+
+#transform-world p {
+    width: 15.25rem;
+    height: 8.812rem;
+    top: 6.937rem;
+    left: 12.375rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.935rem;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+
+}
+
+
+
+
