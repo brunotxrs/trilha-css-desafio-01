@@ -1,0 +1,42 @@
+#professional-challenges h2 {
+    width: 78.875rem;
+    height: 4.75rem;
+    top: 98.562rem;
+    left: 21.687rem;
+    font-weight: 700;
+    font-size: 2rem;
+    
+    text-align: center;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    padding: 0 200px;
+}
+
+
+#professional-challenges img {
+    width: 41.187rem;
+    height: 26.812rem;
+    top: 105.312rem;
+    left: 24.375rem;
+    margin-left: 310px;
+
+    transition: all 1s; 
+}
+
+#professional-challenges img:hover {
+    filter: drop-shadow(10px 7px 20px #33A8DB);   
+}
+
+#professional-challenges p {
+    width: 49.5rem;
+    height: 4.75rem;
+    top: 134.62rem;
+    left: 324px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18.78px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 30px;
+}
