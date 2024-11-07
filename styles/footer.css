@@ -1,14 +1,12 @@
 footer {
-    height: 5.62rem;
+    height: 10.63rem;
     margin-top: 3.13rem;
+    border-top: 1px solid #33A8DB80;
+    text-align: center;
 
 }
 
 footer img {
     width: 18.37rem;
-    margin-left: 31.25rem;
-}
-
-footer p {
-    margin-left: 32.81rem;
+    margin-top: 4.34rem;
 }

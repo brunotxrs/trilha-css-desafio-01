@@ -8,12 +8,8 @@
 }
 
 .banner .banner-content {
-    display: block;
     color: white;
-    width: 31.87rem;
-    height: 37.5rem;
-    top: 3.5rem;
-    left: 29.06rem;
+    width: 40rem;
     margin: auto;
     text-align: center;
 }
@@ -33,18 +29,25 @@
     font-weight: 400;
     font-size: 1.25rem;
     align-items: center;
-    margin: 1.25rem 0 1.25rem;
+    margin: 1rem 0 1.5rem;
 }
   
 .banner .logo {
     background-color: rgba(0, 0, 0, .2);
-    width: 16.75rem;
+    width: 16.25rem;
+    height: 16.25rem;
     margin: auto;
     border-radius: 50%;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
+.banner .logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
   
 .banner .banner-content button {
     color: #31A8DD;
@@ -52,7 +55,7 @@
     font-weight: bold;
     padding: 1rem 2rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-decoration: none;
     background-color: #1572B7 ;
     color: #adff2f;

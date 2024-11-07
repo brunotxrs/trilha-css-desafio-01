@@ -1,3 +1,8 @@
+#professional-challenges {
+    text-align: center;
+    width: 50rem;
+}
+
 #professional-challenges h2 {
     font-weight: 700;
     font-size: 2rem;
@@ -5,14 +10,13 @@
     color: #33A8DB;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    padding: 0 12.5rem;
+    padding: 0 .63rem;
 }
 
 #professional-challenges img {
-    margin-top: 1.88rem;
-    margin-left: 310px;
-    transition: all 1s; 
+    margin: 2rem;
 }
+
 
 #professional-challenges img:hover {
     filter: drop-shadow(.63rem .44rem 1.25rem #33A8DB);   
@@ -24,6 +28,6 @@
     font-size: 1rem;
     line-height: 1.17rem;
     text-align: center;
-    margin-left: 16.88rem;
+    margin-left: 2rem;
     margin-top: 3rem;
 }

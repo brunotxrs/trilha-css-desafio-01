@@ -3,11 +3,13 @@
 body {
     background-color: black;
     display: grid;
-    width: 78.75rem;
-    grid-template-areas: 
+    width: 100%;
+    height: 100vh;
+    grid-template-areas:
     "header header  header"
     "main main main"
-    "footer  footer  footer";
+    "footer  footer  footer"; 
+
 }
 
 body > header {
