@@ -2,10 +2,8 @@
 
 body {
     background-color: black;
-
     display: grid;
-    width: 75rem;
-    /* height: 155.687rem; */
+    width: 78.75rem;
     grid-template-areas: 
     "header header  header"
     "main main main"
@@ -24,12 +22,11 @@ body > footer {
     grid-area: footer;
 }
 
-
 p {
     color: white;
 }
 
 section {
-    margin: 100px auto;
+    margin: 6.25rem auto;
 }
 
